@@ -1,0 +1,6 @@
+framework module AliyunIdentityPlatform {
+  umbrella header "AliyunIdentityPlatform.h"
+
+  export *
+  module * { export * }
+}

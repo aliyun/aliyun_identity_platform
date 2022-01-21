@@ -1,0 +1,34 @@
+{
+   "OCR_PreProcess_Para": {
+        "pre_type": "BANKCARD", 
+        "pre_option": ""
+    },
+ "OCR_Detect_Para": {
+        "detect_type": "1", 
+        "detect_isOnlyOneRect": "true", 
+        "detect_min_conf": "0.2",
+  "detect_min_max_height": "10;1280", 
+  "detect_min_max_width": "0;1280", 
+        "detect_start_end_opName": "feature_fusion/Conv_7/Sigmoid;feature_fusion/concat_3", 
+        "detect_option": ""
+    }, 
+    "OCR_LineTransform_Para": {
+        "transform_type": "1",
+        "transform_expandRatio": "0.3;0.05", 
+        "transform_option": ""
+    }, 
+    "OCR_LineRecognize_Para": {
+        "rec_type": "0", 
+        "rec_min_conf": "0.95", 
+        "rec_resizetype": "1", 
+        "rec_padValue": "0", 
+        "rec_isDetectBlank": "0", 
+        "rec_DetectBlankTh": "0", 
+        "rec_start_end_opName": "CTCGreedyDecoder;CTCGreedyDecoder:1", 
+        "rec_option": ""
+    },
+"OCR_PostProcess_Para": {
+        "post_type": "", 
+        "post_option": ""
+    }
+}

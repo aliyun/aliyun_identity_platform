@@ -1,0 +1,6 @@
+framework module AliyunIdentityOcr {
+  umbrella header "AliyunIdentityOcr.h"
+
+  export *
+  module * { export * }
+}
